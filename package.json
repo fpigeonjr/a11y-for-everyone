@@ -1,0 +1,22 @@
+{
+  "name": "semantic-html",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npx parcel index.html"
+  },
+  "author": "Amy Kapernick <amy@kapers.dev> (https://amyskapers.dev)",
+  "staticFiles": {
+    "staticPath": [
+      "img"
+    ],
+    "watcherGlob": "**"
+  },
+  "dependencies": {
+    "parcel": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.5.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-image": "2.0.0-rc.0"
+  }
+}
